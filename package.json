@@ -1,0 +1,40 @@
+{
+  "name": "cfer-toolkit-test",
+  "version": "0.0.1",
+  "description": "A sample installation of the CFER Toolkit Node Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scrollbar",
+    "scrolling",
+    "scrollpane"
+  ],
+  "author": {
+    "name": "Ben Ratliff, Amplify"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "cfer-toolkit": "1.6.8",
+    "css-loader": "^0.27.3",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.0",
+    "raw-loader": "^0.5.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-scroll": "^1.4.7",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.14.1",
+    "webpack": "^2.1.0-beta.22"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "cfer-react-scrollpane@1.0.68",
+  "_shasum": "cf40177fb6c213dda28e2f0153ab39a3bd093e67",
+  "_from": "cfer-react-scrollpane@1.0.68"
+}
