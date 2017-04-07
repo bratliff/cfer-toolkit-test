@@ -7,7 +7,7 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /.jsx?$/,
+                test: /\.js|\.jsx|\.es6$/,
                 loader: 'babel-loader',
                 exclude: function(modulePath) {
                     return /node_modules/.test(modulePath) &&
