@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Toolkit from 'cfer-toolkit';
-
-var TextPaneScroll = Toolkit.TextPaneScroll;
-var Sample = Toolkit.Sample;
+import {TextPaneScroll, Sample} from 'cfer-toolkit';
 
 ReactDOM.render(
   <TextPaneScroll />,
