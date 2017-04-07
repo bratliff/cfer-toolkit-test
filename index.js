@@ -23623,8 +23623,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var TextPaneScroll = _cferToolkit2.default.TextPaneScroll;
 var Sample = _cferToolkit2.default.Sample;
 
-console.log(Sample);
-
 _reactDom2.default.render(_react2.default.createElement(TextPaneScroll, null), document.querySelector('.scrollbar'));
 
 _reactDom2.default.render(_react2.default.createElement(Sample, null), document.querySelector('.sample'));
