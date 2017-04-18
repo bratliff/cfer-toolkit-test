@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {TextPaneScroll, Sample} from 'cfer-toolkit';
+import {TextPaneScroll} from 'cfer-toolkit';
+import {AssessmentButton} from 'cfer-toolkit';
 
 ReactDOM.render(
   <TextPaneScroll />,
   document.querySelector('.scrollbar')
 );
-
 ReactDOM.render(
-  <Sample />,
-    document.querySelector('.sample')
+  <AssessmentButton />,
+  document.querySelector('.assessment-button')
 );
